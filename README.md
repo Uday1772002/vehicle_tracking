@@ -1,7 +1,6 @@
 🚗 Vehicle Movement Tracker
 A real-time vehicle simulation application built with React and Leaflet, showcasing smooth vehicle movement along predefined routes with interactive controls and live metadata display.
 
-![Vehicle Tracker Demo](https://via.placeholder.com/800x400/667eea/ffffff?text= developed as part of the Blockly Technologies Frontend Developer Intern Assignment. The application demonstrates advanced frontend development skills including React state management, map integration, real-time animations, and responsive UI design.
 
 ✨ Features
 Core Functionality
