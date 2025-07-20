@@ -1,0 +1,68 @@
+.map-wrapper {
+  flex-grow: 1;
+  position: relative;
+  margin: 0.5rem;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+.map-container {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+/* Popup Styles */
+.vehicle-popup .leaflet-popup-content-wrapper {
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+.popup-content h3 {
+  margin-bottom: 1rem;
+  color: #1e293b;
+  font-size: 1.1rem;
+  border-bottom: 2px solid #3b82f6;
+  padding-bottom: 0.5rem;
+}
+
+.popup-info p {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.status-badge {
+  padding: 0.2rem 0.5rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.status-badge.moving {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.status-badge.stopped {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+/* Leaflet overrides */
+.leaflet-popup-content {
+  margin: 15px;
+  line-height: 1.6;
+  font-size: 13px;
+  min-width: 200px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .map-wrapper {
+    margin: 0.25rem;
+    border-radius: 12px;
+  }
+}
